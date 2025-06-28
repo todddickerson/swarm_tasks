@@ -2,6 +2,8 @@
 
 require 'thor'
 require 'json'
+require 'tty-table'
+require 'pastel'
 
 module SwarmTasks
   class CLI < Thor
