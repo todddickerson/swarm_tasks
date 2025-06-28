@@ -123,6 +123,14 @@ swarm-tasks move implement-feature completed
 
 The JSON output includes all task metadata for easy parsing by agents.
 
+### Example Integration
+
+See the `examples/` directory for sample configurations:
+- `examples/CLAUDE.md` - Sample instructions for AI agents
+- `examples/claude-swarm.yml` - Sample swarm configuration showing task integration
+
+These examples demonstrate how to integrate swarm_tasks into your Claude Swarm workflow for autonomous task management.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests.
