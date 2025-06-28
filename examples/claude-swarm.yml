@@ -27,7 +27,7 @@ swarm:
         bundle exec swarm-tasks move <task-id> active
         
         # Then spawn the appropriate agent
-        claude-swarm -p "BACKEND_TASK: [task details]" --worktree &
+        claude-swarm start -p "BACKEND_TASK: [task details]" --worktree &
         ```
         
         3. Monitor progress:
