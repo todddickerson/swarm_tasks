@@ -71,7 +71,7 @@ module SwarmTasks
     
     def regenerate_content
       if @metadata && !@metadata.empty?
-        @content = "---\n#{@metadata.to_yaml.strip}\n---\n\n#{@body}"
+        @content = "#{@metadata.to_yaml.strip}\n---\n\n#{@body}"
       else
         @content = @body
       end
