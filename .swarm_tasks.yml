@@ -1,0 +1,9 @@
+---
+tasks_dir: spec/fixtures/tasks
+states:
+- backlog
+- active
+- completed
+integrations:
+  git_commit_on_move: true
+  commit_template: 'Task {{task_id}}: {{action}} - {{title}}'
